@@ -417,10 +417,10 @@
             let cy = positionsArr[i3 + 1];
             let cz = positionsArr[i3 + 2];
 
-            // Noise/Wiggle effect
-            cx += (Math.random() - 0.5) * 0.05;
-            cy += (Math.random() - 0.5) * 0.05;
-            cz += (Math.random() - 0.5) * 0.05;
+            // Noise/Wiggle effect - reduced for less vibration
+            cx += (Math.random() - 0.5) * 0.015;
+            cy += (Math.random() - 0.5) * 0.015;
+            cz += (Math.random() - 0.5) * 0.015;
 
             // Fluid Motion with Momentum
             // Calculate desired direction
